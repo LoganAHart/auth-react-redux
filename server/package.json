@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "server for auth-react-redux",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "author": "Logan Hart",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongoose": "^5.2.5",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
   }
 }
