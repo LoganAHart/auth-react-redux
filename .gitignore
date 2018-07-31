@@ -8,6 +8,9 @@ server/coverage
 # production
 server/build
 
+#config
+config.js
+
 # misc
 .DS_Store
 .env.local
