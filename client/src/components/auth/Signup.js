@@ -10,6 +10,7 @@ class Signup extends Component {
       this.props.history.push('/feature');
     });
   };
+  
   render() {
     const { handleSubmit } = this.props;
     return (
